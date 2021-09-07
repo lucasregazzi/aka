@@ -1,0 +1,443 @@
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+figcaption,
+figure,
+main {
+    display: block
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: inherit
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background-color: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+audio,
+video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html [type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details,
+menu {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+canvas {
+    display: inline-block
+}
+
+template {
+    display: none
+}
+
+[hidden] {
+    display: none
+}
+
+body {
+    font-family: 'Jomolhari', serif;
+    line-height: 1.4;
+    background-color: rgb(223, 223, 223);
+}
+
+::selection {
+    background-color: transparent;
+    color: orangered;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: orangered;
+}
+
+a:hover {
+    color: orangered;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+p {
+    padding: 0px;
+    margin: 0px 0px 15px 0px;
+}
+
+header {
+    padding: 50px 25px 25px 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: underline;
+    position: relative;
+}
+
+header a:hover {
+    text-decoration: none;
+}
+
+header a::before {
+    position: absolute;
+    top: -20px;
+    left: -40px;
+    content: '←';
+    display: none;
+}
+
+header a:hover::before {
+    display: block;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+main {
+    padding: 25px;
+}
+
+.call {
+    columns: 1;
+    margin-bottom: 20px;
+}
+
+.words {
+    columns: 2;
+}
+
+em {
+    font-family: 'Happy Monkey', cursive;
+    font-style: normal;
+}
+
+.wiggles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 50px;
+}
+
+.wiggle {
+    width: 23%;
+    padding-bottom: 100px;
+}
+
+.wiggle h2,
+.description h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: normal;
+    animation: fire 5s linear 2s infinite alternate;
+}
+
+.wiggle h2 {
+        padding: 15px 0px;
+        min-height: 100px;
+}
+
+.description h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+.wiggle video {
+    width: 100%;
+}
+
+.footnotes {
+    width: 50%;
+    font-size: 12px;
+    padding-top: 25px;
+    border-top: 1px solid;
+}
+
+.footnote {
+    color: orangered;
+}
+
+.footnotes .footnote {
+    margin-right: 10px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 25px 0px;
+    background-color: darkgray
+}
+
+.forms-studio {
+    position: relative;
+    padding-bottom: 50%;
+    height: 0;
+    overflow: hidden;
+}
+
+.forms-studio iframe {
+    background-color: transparent;
+    border: 0px;
+    width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100% !important;
+            height: 100% !important;
+}
+
+h2.submit {
+    padding: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 2em;
+    margin: .67em 0;
+}
+
+.number {
+    padding: 0px !important;
+    width: 50px;
+    min-height: 50px !important;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+video {
+    border: 1px solid #fff;
+}
+
+@media (max-width: 650px) {
+
+    body {
+        font-size: .9em;
+    }
+
+    .words {
+        columns: 1;
+    }
+
+    .wiggle {
+        width: 47%;
+    }
+    
+    .forms-studio {
+        padding-bottom: 120%;
+    }
+
+}
+
+@keyframes fire {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: purple;
+    }
+}
