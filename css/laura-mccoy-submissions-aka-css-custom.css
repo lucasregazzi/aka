@@ -1,0 +1,575 @@
+html {
+    line-height: 1.15;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+article,
+aside,
+footer,
+header,
+nav,
+section {
+    display: block
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+figcaption,
+figure,
+main {
+    display: block
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible
+}
+
+pre {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+a {
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects
+}
+
+abbr[title] {
+    border-bottom: none;
+    text-decoration: underline;
+    text-decoration: underline dotted
+}
+
+b,
+strong {
+    font-weight: inherit
+}
+
+b,
+strong {
+    font-weight: bolder
+}
+
+code,
+kbd,
+samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+dfn {
+    font-style: italic
+}
+
+mark {
+    background-color: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub,
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sub {
+    bottom: -.25em
+}
+
+sup {
+    top: -.5em
+}
+
+audio,
+video {
+    display: inline-block
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+img {
+    border-style: none
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: sans-serif;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0
+}
+
+button,
+input {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html [type=button],
+[type=reset],
+[type=submit] {
+    -webkit-appearance: button
+}
+
+button::-moz-focus-inner,
+[type=button]::-moz-focus-inner,
+[type=reset]::-moz-focus-inner,
+[type=submit]::-moz-focus-inner {
+    border-style: none;
+    padding: 0
+}
+
+button:-moz-focusring,
+[type=button]:-moz-focusring,
+[type=reset]:-moz-focusring,
+[type=submit]:-moz-focusring {
+    outline: 1px dotted ButtonText
+}
+
+fieldset {
+    padding: .35em .75em .625em
+}
+
+legend {
+    box-sizing: border-box;
+    color: inherit;
+    display: table;
+    max-width: 100%;
+    padding: 0;
+    white-space: normal
+}
+
+progress {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+textarea {
+    overflow: auto
+}
+
+[type=checkbox],
+[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+[type=number]::-webkit-inner-spin-button,
+[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+[type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px
+}
+
+[type=search]::-webkit-search-cancel-button,
+[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    font: inherit
+}
+
+details,
+menu {
+    display: block
+}
+
+summary {
+    display: list-item
+}
+
+canvas {
+    display: inline-block
+}
+
+template {
+    display: none
+}
+
+[hidden] {
+    display: none
+}
+
+body {
+    font-family: 'Jomolhari', serif;
+    line-height: 1.4;
+    background-image: url('../images/charm8.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.brace {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.let {
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+    white-space: nowrap;
+    will-change: transform;
+    animation: marquee 75s linear infinite;
+}
+
+.charm {
+    width: 300px;
+    border-radius: 17px;
+    background-size: 100%;
+    overflow: hidden;
+    margin-left: -10px;
+    z-index: 10;
+    position: relative;
+}
+
+.charm, .gif img {
+box-shadow: 2px 0px 50px rgb(182, 69, 69);
+}
+
+.ball {
+    box-shadow: 1px 0px 1-px rgb(88, 88, 88);
+}
+
+.hold {
+    margin-top: 200px;
+}
+
+.hold2 {
+    margin-top: 120px;
+}
+
+.gif {
+    padding: 30px;
+}
+
+.c1 {
+    transform: rotate(2deg);
+}
+
+.c2 {
+    transform: rotate(-5deg);
+}
+
+.c2 {
+    transform: rotate(-5deg);
+}
+
+.c3 {
+    transform: rotate(10deg);
+}
+
+.c4 {
+    transform: rotate(20deg);
+    margin-top: 100px;
+}
+
+.c5 {
+    transform: rotate(20deg);
+    margin-top: 150px;
+}
+
+.c6 {
+    transform: rotate(50deg);
+    margin-top: 250px;
+    margin-left: -50px !important;
+}
+
+.c7 {
+    transform: rotate(40deg);
+    margin-left: 10px !important;
+}
+
+.c8 {
+    transform: rotate(-10deg);
+    margin-left: 10px !important;
+    margin-top: 100px;
+}
+
+.c9 {
+    transform: rotate(-2deg);
+    margin-left: -5px !important;
+    margin-top: 90px;
+}
+
+.c10 {
+    transform: rotate(10deg);
+    margin-left: -5px !important;
+    margin-top: 100px;
+}
+
+.c11 {
+    margin-left: -5px !important;
+    transform: rotate(10deg);
+    margin-top: 100px;
+}
+
+.c12 {
+    margin-left: -5px !important;
+    transform: rotate(-4deg);
+    margin-top: 100px;
+}
+
+.c13 {
+    transform: rotate(-14deg);
+}
+
+.c14 {
+    transform: rotate(-2deg);
+}
+
+.c15 {
+    transform: rotate(-5deg);
+}
+
+
+.jump {
+    animation: jump 4s ease-in-out infinite;
+}
+
+.ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background: radial-gradient(circle at 50% 120%, rgb(197, 166, 166), #c06b6b 80%, #7e1616 100%);
+    margin-left: -5px;
+    position: relative;
+    border-right: 1px solid #7e1616;
+}
+
+.ball:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background: radial-gradient(circle at 50% 120%, rgba(221, 181, 181, 0.5), rgba(255, 255, 255, 0) 70%);
+    opacity: .6;
+    filter: blur(5px);
+    z-index: 9;
+}
+
+.chain {
+    display: flex;
+    height: 300px;
+    align-items: center;
+    margin-left: -5px;
+    z-index: 9;
+}
+
+
+.charm img {
+    display: block;
+}
+
+.shake {
+    animation: shake 1s ease-in-out infinite;
+}
+
+.bob {
+    animation: bob 4s ease-in-out infinite;
+}
+
+.bobb {
+    animation: bobb 4s ease-in-out infinite;
+}
+
+.bobb2 {
+    animation: bobb2 4s ease-in-out infinite;
+}
+
+.b1 {
+    background-image: url('../images/charm1.jpg');
+}
+
+.b2 {
+    background-image: url('../images/charm2.jpg');
+}
+
+.b3 {
+    background-image: url('../images/charm3.jpg');
+}
+
+.b4 {
+    background-image: url('../images/charm4.jpg');
+}
+
+.b5 {
+    background-image: url('../images/charm5.jpg');
+}
+
+.b6 {
+    background-image: url('../images/charm6.jpg');
+}
+
+.b7 {
+    background-image: url('../images/charm7.jpg');
+}
+
+.b8 {
+    background-image: url('../images/charm8.jpg');
+}
+
+@keyframes bob {
+    0% {
+        margin-top: 0px;
+    }
+
+    25% {
+        margin-top: -10px;
+    }
+
+    50% {
+        margin-top: 10px;
+    }
+
+    75% {
+        margin-top: -10px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes bobb {
+    0% {
+        margin-top: 0px;
+    }
+
+    25% {
+        margin-top: 2px;
+    }
+
+    50% {
+        margin-top: -2px;
+    }
+
+    75% {
+        margin-top: 2px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes bobb2 {
+    0% {
+        margin-top: 0px;
+    }
+
+    25% {
+        margin-top: -2px;
+    }
+
+    50% {
+        margin-top: 2px;
+    }
+
+    75% {
+        margin-top: -2px;
+    }
+
+    100% {
+        margin-top: 0px;
+    }
+}
+
+@keyframes shake {
+
+    10%,
+    90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%,
+    80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%,
+    50%,
+    70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%,
+    60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+@keyframes jump {
+    33% {
+        box-shadow: 0 60px #f37121, 0 150px #f2aaaa;
+    }
+
+    50% {
+        transform: translate(0, 0) rotate(-4deg);
+        box-shadow: 0 0px #8fc0a9, 0 0px #84a9ac;
+    }
+
+    66.67% {
+        box-shadow: 0 -60px #d54062, 0 -150px #8fc0a9;
+    }
+}
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-900%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+/*This file was exported by "Export WP Page to Static HTML" plugin which created by ReCorp (https://myrecorp.com) */
